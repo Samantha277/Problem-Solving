@@ -1,1 +1,7 @@
 ******* Pushing an existing repo into Git **********
+git init 
+git add -A
+git remote add origin <project https url>
+git commit -a -m "message"
+git pull
+git push --set-upstream origin master
